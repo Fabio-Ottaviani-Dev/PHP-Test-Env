@@ -1,5 +1,5 @@
 # PHP-Test-Env
-## Base php test environment with phpspec
+Base php test environment with phpspec.
 
 ### References:
 1. http://www.phpspec.net
@@ -10,13 +10,12 @@
 6. https://www.npmjs.com/package/gulp-notify
 
 ### Check your tools
-
 ```
-# echo "`composer -V` | Node version: `node -v` | NPM version: `npm -v`"
-# Composer version 1.5.2 2017-09-11 16:59:25 | Node version: v8.7.0 | NPM version: 5.5.1
+# echo "`composer -V` | node: `node -v` | npm: `npm -v`"
+# Composer: 1.5.2 | node: v8.7.0 | npm: 5.5.1
 ```
 
 ### Install
 `# composer install && npm install`
 
-## Happy testing!
+### Happy testing!.
