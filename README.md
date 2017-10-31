@@ -18,4 +18,7 @@ Base php test environment with phpspec.
 ### Install
 `# composer install && npm install`
 
+### Run
+`# gulp`
+
 ### Happy testing!.
