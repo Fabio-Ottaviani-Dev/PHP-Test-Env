@@ -1,4 +1,4 @@
-# PHP-Test-Env
+# Phpspec testing environment
 Base php test environment with phpspec.
 
 ### References:
