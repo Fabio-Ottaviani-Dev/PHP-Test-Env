@@ -1,13 +1,10 @@
 {
-    "name": "PHP Test Env",
-    "description": "base php testing tools",
-    "require": {
+    "require-dev": {
         "phpspec/phpspec": "^4.2"
     },
-    "autoload": {
-        "psr-4": {
-            "": "src/"
-        }
-    }
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-4": {"": "src"}}
 }
 
