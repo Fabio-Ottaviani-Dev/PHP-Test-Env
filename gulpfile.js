@@ -4,13 +4,13 @@ var run       = require('gulp-run');
 var notify    = require('gulp-notify');
 /*
 // Single spec
-var src       = ' ../project-dir/spec/singleSpec.php';
+var src       = ' project-dir/spec/singleSpec.php';
 
 // All spec
 var src       = '';
 */
-var src       = ' ../phpspec-testing-environment/spec/MarkdownSpec.php';
-var run       = './bin/phpspec run' + src;
+var src       = ' phpspec-testing-environment/spec/MarkdownSpec.php';
+var run       = 'bin/phpspec run' + src;
 var options   = {verbose: 'v', notify: true, clear: true, formatter: 'pretty'};
 
 
